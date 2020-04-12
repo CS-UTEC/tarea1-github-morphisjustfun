@@ -3,7 +3,7 @@ print("Este algoritmo verifica si el numero ingresado es primo")
 num = int( input("Ingresa el numero: "))
 condicion  = 0
 if num<0:
-    print("El numero no es positivo")
+    print("El numero no es positivo, prueba con otro")
     quit()
 if num==1:
     condicion=2
